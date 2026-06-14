@@ -222,17 +222,17 @@ window.onload = () => { document.body.style.opacity = "1"; }
 let products=[
 {name:'Falmero Noir Edition (Black)',price:379.99,img:'https://i.postimg.cc/m21mN2m4/IMG_20260409_WA0025.jpg', back:'https://i.postimg.cc/L6JbCV8S/IMG_20260409_WA0026.jpg'},
 {name:'Falmero Blanc Edition (White)',price:379.99,img:'https://i.postimg.cc/kMf0h4Ny/IMG_20260409_WA0027.jpg',back:'https://i.postimg.cc/L43942tk/IMG_20260409_WA0028.jpg' },
-{name:'',price:0.00,img:'https://i.postimg.cc/gj7hF18J/file-00000000804071fd875be68f9f989ca4.png',back:'https://i.postimg.cc/gj7hF18J/file-00000000804071fd875be68f9f989ca4.png'},
-{name:'',price:0.00,img:'https://i.postimg.cc/gj7hF18J/file-00000000804071fd875be68f9f989ca4.png',back:'https://i.postimg.cc/gj7hF18J/file-00000000804071fd875be68f9f989ca4.png' },
-{name:'',price:0.00,img:'https://i.postimg.cc/gj7hF18J/file-00000000804071fd875be68f9f989ca4.png',back:'https://i.postimg.cc/gj7hF18J/file-00000000804071fd875be68f9f989ca4.png'},
-{name:'',price:0.00,img:'https://i.postimg.cc/gj7hF18J/file-00000000804071fd875be68f9f989ca4.png',back:'https://i.postimg.cc/gj7hF18J/file-00000000804071fd875be68f9f989ca4.png'}
+{name:'Prosperity Tee (Black)',price:400.00,img:'https://i.postimg.cc/G2gSkCF1/prosperity-tee-(black-front).png',back:'https://i.postimg.cc/FRHBdRJ8/prosperity-tee-(black-back.png'},
+{name:'Prosterity Tee',price:400.00,img:'https://i.postimg.cc/yxwQbypM/prosperity-tee-(back-and-white-front).png',back:'https://i.postimg.cc/6q7bcmcf/prosperity-tee-(back-and-white-back).png' },
+{name:'Prosperity Tee',price:400.00,img:'https://i.postimg.cc/X7RmH4TF/prosperity-tee-(-blue-front)-Copy.png',back:'https://i.postimg.cc/DZwMJZbX/Prosperity-tee-(blue-back).png'},
+{name:'',price:.00,img:'https://i.postimg.cc/gj7hF18J/file-00000000804071fd875be68f9f989ca4.png',back:'https://i.postimg.cc/gj7hF18J/file-00000000804071fd875be68f9f989ca4.png'}
 ];
 
 let cart=[];
-
 function renderProducts(list){
 let container=document.getElementById('products');
 container.innerHTML='';
+
 list.forEach(p=>{
 container.innerHTML+=`
 <div class="product">
